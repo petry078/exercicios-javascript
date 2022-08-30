@@ -2,7 +2,7 @@
 
 ## Capítulo 1
 
-**a)**
+**a)**Elaborar um programa que leia um número. Calcule e informe seus vizinhos, ou seja o número anterior e posterior.
 
 ```javascript
 let numero = Number(prompt("Número:"))

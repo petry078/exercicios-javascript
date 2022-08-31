@@ -1,4 +1,6 @@
-# Resolução dos exercícios do livro Lógica de Programação e Algorítimos com JavaScript
+# Lógica de Programação e Algorítimos com JavaScript
+
+Resolução dos exercícios do livro [Lógica de Programação e Algorítimos com JavaScript](https://www.novatec.com.br/livros/logica-programacao-algoritmos-com-javascript-2ed/) de Edécio Fernando Iepsen (novatec).
 
 ## Capítulo 1
 

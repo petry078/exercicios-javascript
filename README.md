@@ -87,7 +87,20 @@ let price = Number(prompt("Price: "))
 let price2 = Math.floor(price) * 2
 alert(`Buy 2 pay only $ ${price2}`)
 ```
-
 **e) Elaborar um programa para uma lan house de um aeroporto. O programa deve ler o valor de cada 15 minutos de uso de um computador e o tempo de uso por um cliente em minutos. Informe o valor a ser pago pelo cliente, sabendo que as frações extras de 15 minutos devem ser cobradas de forma integral.**
 
+```javascript
+let price15 = Number(prompt("Price for 15 min:"))
+let timeUsed = Number(prompt("Minutes used:"))
+let total = (timeUsed / 15) * price15
+alert(`Bill: $ ${total}`)
+```
+
 **f) Um supermercado está com uma promoção. Para aumentar suas vendas no setor de higiene, cada etiqueta de produto deve exibir uma mensagem anunciando 50% de desconto (para um item) na compra de três unidades do produto. Elaborar um programa que leia descrição e preço de um produto. Apresente as mensagens indicando a promoção.**
+
+```javascript
+let price = Number(prompt("Price:"))
+let discount = price / 2
+let total = discount + price + price
+alert(total)
+```

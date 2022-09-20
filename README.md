@@ -43,3 +43,51 @@ let media = (n1 + n2) / 2
 
 alert(`Média: ${media}`)
 ```
+## Capítulo 2
+
+**a) Elaborar um programa para um cinema, que leia o título e a duração de um filme em minutos. Exiba o título do filme e converta a duração para horas e minutos.**
+
+```javascript
+let filmTitle = prompt("Film title: ")
+let filmLenght = Number(prompt("Lenght in minutes: "))
+
+let filmHours = Math.floor(filmLenght / 60)
+let filmMinutes = 130 % 60
+
+alert(`${filmTitle}\n${filmHours} hours and ${filmMinutes} minutes.`)
+```
+
+**b) Elaborar um programa para uma revenda de veículos. O programa deve ler modelo e preço do veículo. Apresentar como resposta o valor da entrada (50%) e o saldo em 12x.**
+
+```javascript
+let carModel = prompt("Car model: ")
+let carPrice = Number(prompt("Car price: "))
+
+let carPrice1 = carPrice / 2
+let carPrice2 = carPrice1 / 12
+
+alert(`${carModel}\n First pay: R$ ${carPrice1.toFixed(2)} + 12x R$ ${carPrice2.toFixed(2)}`)
+```
+
+**c) Elaborar um programa para um restaurante que leia o prceo por kg e o consumo (em gramas) de um cliente. Exiba o valor a ser pago**
+
+```javascript
+let priceKg = Number(prompt("Price by kilogram: "))
+let priceGr = Number(prompt("Customer consumption (in grams): "))
+
+let priceToPay = (priceKg / 1000) * priceGr
+
+alert(priceToPay)
+```
+
+**d) Uma farmácia está com uma promoção. Na compra de duas unidades de um mesmo medicamento, o cliente recebe como desconto os centavos do valor total. Elaborar um programa que leia a descrição e o preço de um medicamento. Informe o valor do produto na promoção.**
+
+```javascript
+let price = Number(prompt("Price: "))
+let price2 = Math.floor(price) * 2
+alert(`Buy 2 pay only $ ${price2}`)
+```
+
+**e) Elaborar um programa para uma lan house de um aeroporto. O programa deve ler o valor de cada 15 minutos de uso de um computador e o tempo de uso por um cliente em minutos. Informe o valor a ser pago pelo cliente, sabendo que as frações extras de 15 minutos devem ser cobradas de forma integral.**
+
+**f) Um supermercado está com uma promoção. Para aumentar suas vendas no setor de higiene, cada etiqueta de produto deve exibir uma mensagem anunciando 50% de desconto (para um item) na compra de três unidades do produto. Elaborar um programa que leia descrição e preço de um produto. Apresente as mensagens indicando a promoção.**

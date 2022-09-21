@@ -104,3 +104,28 @@ let discount = price / 2
 let total = discount + price + price
 alert(total)
 ```
+## Capítulo 3
+
+**a) Elaborar um programa para uma empresa que leia o salário e o tempo que um funcionário trabalha na empresa. Sabendo que a cada 4 anos (quadreiênio) o funcionário recebe um acréscimo de 1% no salário, calcule e informe o número de quadriênios a que o funcionário tem direito a o salário final.**
+
+```javascript
+const prompt = require("prompt-sync")();
+let salary = Number(prompt("Salary: "))
+let time = Number(prompt("Time of service (years): "))
+let years4 = Math.floor(time / 4)
+let bonus = salary * years4 / 100
+console.log(`Quadrenniums: ${years4}`)
+console.log(`Final salary: ${(salary+bonus).toFixed(2)}`)
+```
+
+**b) Elaborar um programa para uma veterinária, que leia o peso de uma ração em kg e o quanto um gato consome por dia da ração, em gramas. Informe quantos dias irá durar a racão e quanto sobra da ração (em gramas).**
+
+```javascript
+const prompt = require("prompt-sync")();
+let weightInKg = Number(prompt("Weight (kg): "))
+let catEatsByDay = Number(prompt("Cat eats by day (grams): "))
+let weightInGrams = weightInKg * 1000
+let itWillLast = Math.floor(weightInGrams / catEatsByDay)
+let leftover = weightInGrams % catEatsByDay
+console.log(`This cat will eat for ${itWillLast} days and will be ${leftover} grams of leftover`)
+```

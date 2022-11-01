@@ -129,3 +129,29 @@ let itWillLast = Math.floor(weightInGrams / catEatsByDay)
 let leftover = weightInGrams % catEatsByDay
 console.log(`This cat will eat for ${itWillLast} days and will be ${leftover} grams of leftover`)
 ```
+
+## Capítulo 4
+
+**a) Elabore um programa que leia um número. Informe se ele é par ou ímpar. Faça com if..else tradicional e, após, tente criar a condição com o operador ternário.**
+
+```javascript
+Resolução
+```
+
+**b) Elabore um programa que leia a velocidade permitida em uma estrada e a velocidade de um condutor (carro). Se a velocidade for inferior ou igual à permitida, exiba "Sem multa". Se a velocidade for de até 20% maior que a permitida, exiba "Multa leve". Se a velocidade for superior a 20% da velocidade permitida, exiba "Multa grave".**
+
+```javascript
+Resolução
+```
+
+**c) Elaborar um programa para simular um parquímetro, o qual leia o valor de moedas depositado em um terminal de estacionamento rotativo. O programa deve informar o tempo de permanência do veículo no local e o troco (se existir). Se o valor for inferior ao tempo mínimo, exiba a mensagem: "Valor insuficiente".**
+
+```javascript
+Resolução
+```
+
+**d) Elaborar um programa que leia três lados e verifique se eles podem ou não formar um triângulo. Para formar um triângulo, um dos lados não pode ser maior que a soma dos outros dois. Caso possam formar um triângulo, exiba também qual o tipo do triângulo: Equilátero (3 lados iguais), Isóceles (2 lados iguais) e Escaleno (3 lados diferentes).**
+
+```javascript
+Resolução
+```

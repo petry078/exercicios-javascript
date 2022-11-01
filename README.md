@@ -135,7 +135,14 @@ console.log(`This cat will eat for ${itWillLast} days and will be ${leftover} gr
 **a) Elabore um programa que leia um número. Informe se ele é par ou ímpar. Faça com if..else tradicional e, após, tente criar a condição com o operador ternário.**
 
 ```javascript
-Resolução
+let num1 = prompt("Num: ")
+if(num1 % 2 == 0) {
+    console.log("Even")
+} else {
+    console.log("Odd")
+}
+//Ternary
+let num2 = num1 % 2 == 0 ? console.log("Even") : console.log("Odd")
 ```
 
 **b) Elabore um programa que leia a velocidade permitida em uma estrada e a velocidade de um condutor (carro). Se a velocidade for inferior ou igual à permitida, exiba "Sem multa". Se a velocidade for de até 20% maior que a permitida, exiba "Multa leve". Se a velocidade for superior a 20% da velocidade permitida, exiba "Multa grave".**

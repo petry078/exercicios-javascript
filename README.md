@@ -148,7 +148,15 @@ let num2 = num1 % 2 == 0 ? console.log("Even") : console.log("Odd")
 **b) Elabore um programa que leia a velocidade permitida em uma estrada e a velocidade de um condutor (carro). Se a velocidade for inferior ou igual à permitida, exiba "Sem multa". Se a velocidade for de até 20% maior que a permitida, exiba "Multa leve". Se a velocidade for superior a 20% da velocidade permitida, exiba "Multa grave".**
 
 ```javascript
-Resolução
+let speedLimit = Number(prompt("Speed limit (km/h): "))
+let carSpeed = Number(prompt("Car speed (km/h): "))
+if (carSpeed <= speedLimit){
+    console.log("No fine ;D")
+} else if (carSpeed <= speedLimit + (speedLimit * 0,20)) {
+    console.log("Lesser fine")
+} else {
+    console.log("Greater fine")
+}
 ```
 
 **c) Elaborar um programa para simular um parquímetro, o qual leia o valor de moedas depositado em um terminal de estacionamento rotativo. O programa deve informar o tempo de permanência do veículo no local e o troco (se existir). Se o valor for inferior ao tempo mínimo, exiba a mensagem: "Valor insuficiente".**

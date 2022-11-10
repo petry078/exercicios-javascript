@@ -197,4 +197,4 @@ if (sideAB == sideBC && sideBC == sideCA) {
         console.log("Scalene")
     }
 ```
-> [Veja os desenhos feitos durante a abstração deste problema aqui.](url)
+> [Veja os desenhos feitos durante a abstração deste problema aqui.](https://github.com/petry078/exercicios-javascript/blob/main/img/README.md)

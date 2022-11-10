@@ -1,0 +1,3 @@
+![equilatero]()
+![escaleno]()
+![isoceles]()

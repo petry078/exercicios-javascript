@@ -171,5 +171,30 @@ Resolução
 **d) Elaborar um programa que leia três lados e verifique se eles podem ou não formar um triângulo. Para formar um triângulo, um dos lados não pode ser maior que a soma dos outros dois. Caso possam formar um triângulo, exiba também qual o tipo do triângulo: Equilátero (3 lados iguais), Isóceles (2 lados iguais) e Escaleno (3 lados diferentes).**
 
 ```javascript
-Resolução
+const prompt = require("prompt-sync")();
+
+console.log("* Equilateral = 3 equal sides;")
+console.log("* Isosceles = 2 equal sides and 1 different;")
+console.log("* Scalene = 3 different sides.")
+
+let sideAB = prompt("Centimeters for A-B:  ")
+let sideBC = prompt("Centimeters for B-C:  ")
+let sideCA = prompt("Centimeters for C-A:  ")
+
+if (sideAB == sideBC && sideBC == sideCA) {
+    console.log("Equilateral")
+} else if (
+    sideBC == sideCA && sideAB != sideBC ||
+    sideAB == sideCA && sideBC != sideCA ||
+    sideAB == sideBC && sideCA != sideAB 
+    ){
+        console.log("Isosceles")
+    } else if (
+        sideAB != sideBC && sideCA != sideAB ||
+        sideBC != sideCA && sideAB != sideBC ||
+        sideCA != sideAB && sideAB != sideCA
+    ){
+        console.log("Scalene")
+    }
 ```
+> [Veja os desenhos feitos durante a abstração deste problema aqui.](url)

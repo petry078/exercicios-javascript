@@ -2,6 +2,8 @@
 
 Resolução dos exercícios do livro [Lógica de Programação e Algorítimos com JavaScript (2º edição)](https://www.novatec.com.br/livros/logica-programacao-algoritmos-com-javascript-2ed/) de Edécio Fernando Iepsen (editora Novatec).
 
+> Todos os exercícios desse repositório foram resolvidos com a ajuda da ferramenta [prompt-sync](https://www.npmjs.com/package/prompt-sync), para podermos rodar `prompts` de JavaScript no terminal, com NodeJS. Mais informações no [prompt-sync-template](https://github.com/petry078/prompt-sync-template).
+
 ## Capítulo 1
 
 **a) Elaborar um programa que leia um número. Calcule e informe seus vizinhos, ou seja o número anterior e posterior.**

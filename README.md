@@ -1,6 +1,6 @@
 # Lógica de Programação e Algorítimos com JavaScript
 
-Resolução dos exercícios do livro [Lógica de Programação e Algorítimos com JavaScript](https://www.novatec.com.br/livros/logica-programacao-algoritmos-com-javascript-2ed/) de Edécio Fernando Iepsen (novatec).
+Resolução dos exercícios do livro [Lógica de Programação e Algorítimos com JavaScript (2º edição)](https://www.novatec.com.br/livros/logica-programacao-algoritmos-com-javascript-2ed/) de Edécio Fernando Iepsen (editora Novatec).
 
 ## Capítulo 1
 
@@ -198,3 +198,11 @@ if (sideAB == sideBC && sideBC == sideCA) {
     }
 ```
 > [Veja os desenhos feitos durante a abstração deste problema aqui.](https://github.com/petry078/exercicios-javascript/blob/main/img/README.md)
+
+## Capítulo 5
+
+**a) Elabore um programa que leia o nome de uma fruta e um número. O programa deve repetir a exibição do nome da fruta, de acordo com o número informado. utilize `*` para separar os nomes.**
+
+**b) Digamos que o número de chinchilas de uma fazenda triplica a cada ano, após o primeiro ano. Elabore um programa que leia o número inicial de cinchilas e anos e informe ano a ano o número médio previsto de chinchilas na fazenda. O número inicial de chinchilas deve ser maior ou igual a 2 (um casal).**
+
+**c) Elabore um programa que leia um número e verifique se ele é ou não perfeito. Um número dito perfeito é aquele que é igual à soma dos seus divisores inteiros (exceto o próprio número). O programa deve exibir os divisores do número e a soma deles.**

@@ -203,7 +203,7 @@ if (sideAB == sideBC && sideBC == sideCA) {
 
 ## Capítulo 5
 
-**a) Elabore um programa que leia o nome de uma fruta e um número. O programa deve repetir a exibição do nome da fruta, de acordo com o número informado. utilize `*` para separar os nomes.**
+**a) Elabore um programa que leia o nome de uma fruta e um número. O programa deve repetir a exibição do nome da fruta, de acordo com o número informado. Utilize `*` para separar os nomes.**
 
 **b) Digamos que o número de chinchilas de uma fazenda triplica a cada ano, após o primeiro ano. Elabore um programa que leia o número inicial de cinchilas e anos e informe ano a ano o número médio previsto de chinchilas na fazenda. O número inicial de chinchilas deve ser maior ou igual a 2 (um casal).**
 

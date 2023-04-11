@@ -205,6 +205,34 @@ if (sideAB == sideBC && sideBC == sideCA) {
 
 **a) Elabore um programa que leia o nome de uma fruta e um número. O programa deve repetir a exibição do nome da fruta, de acordo com o número informado. Utilize `*` para separar os nomes.**
 
-**b) Digamos que o número de chinchilas de uma fazenda triplica a cada ano, após o primeiro ano. Elabore um programa que leia o número inicial de cinchilas e anos e informe ano a ano o número médio previsto de chinchilas na fazenda. O número inicial de chinchilas deve ser maior ou igual a 2 (um casal).**
+```javascript
+const prompt = require("prompt-sync")()
+let fruit = prompt("Fruit: ")
+let num1 = prompt("Number: ")
+let counter = 0
+
+do {
+    counter++
+    console.log(`${fruit} *`)
+} while (counter < num1)
+```
+
+**b) Digamos que o número de chinchilas de uma fazenda triplica a cada ano, após o primeiro ano. Elabore um programa que leia o número inicial de chinchilas e anos e informe ano a ano o número médio previsto de chinchilas na fazenda. O número inicial de chinchilas deve ser maior ou igual a 2 (um casal).**
+
+```javascript
+const prompt = require("prompt-sync")()
+let initialNumberOfRodents = prompt("Initial number of Chinchilas: ")
+let years = prompt("How many years of chinchila production? ")
+let counter = 0
+
+do {
+    counter++
+    console.log(`After year ${counter}: ${initialNumberOfRodents * 3}`)
+    initialNumberOfRodents = initialNumberOfRodents * 3
+} while (counter < years)
+```
 
 **c) Elabore um programa que leia um número e verifique se ele é ou não perfeito. Um número dito perfeito é aquele que é igual à soma dos seus divisores inteiros (exceto o próprio número). O programa deve exibir os divisores do número e a soma deles.**
+
+```javascript
+```

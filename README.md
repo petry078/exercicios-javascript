@@ -235,4 +235,19 @@ do {
 **c) Elabore um programa que leia um número e verifique se ele é ou não perfeito. Um número dito perfeito é aquele que é igual à soma dos seus divisores inteiros (exceto o próprio número). O programa deve exibir os divisores do número e a soma deles.**
 
 ```javascript
+const prompt = require("prompt-sync")()
+let num1 = Number(prompt("Numero: "))
+let soma = 0;
+
+for (let i = 0; i < num1; i++){
+  if (num1 % i === 0){
+    soma += i 
+  }
+}
+
+if (soma === num1){
+  console.log("Perfeito!")
+} else {
+  console.log("Não!")
+}
 ```
